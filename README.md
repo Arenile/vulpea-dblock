@@ -165,38 +165,6 @@ would exceed the storm threshold; the scheduler then collapses the storm
 into a single re-verification of every block, and the publisher stops
 capturing per-file old/new state until the window resets.
 
-## Integrating with an existing init.el
-
-If you were using the hand-rolled `node-list` + refresh-everything
-machinery this package replaces:
-
-**Keep:** your `save-on-focus-loss` hook, the vulpea `use-package`
-block, agenda wiring.
-
-**Delete:** `my/org-dblock-refresh-idle-delay`,
-`my/org-dblock-refresh--timer`, `my/org-buffer-has-dblock-p`,
-`my/org-dblock-refresh-buffer`, `my/org-dblock-refresh--run`,
-`my/org-dblock-schedule-refresh`, the `vulpea-db-update-file` advice,
-`my/refresh-dblocks-buffer-load` and its `find-file-hook`,
-`my/refresh-dblocks`, and — once you've verified the alias against a few
-real blocks — `org-dblock-write:node-list` and its helpers
-(`my/vulpea-dblock--resolve-note`, `--priority-string`,
-`--id-links-from`, `--candidates`, `--format-note`, and the
-`org-roam-dblock--format-node` defalias, which the package provides).
-
-**Add:**
-
-```elisp
-(use-package vulpea-dblock
-  :load-path "/path/to/vulpea-dblock"   ; or your preferred install method
-  :after vulpea
-  :config
-  (vulpea-dblock-mode 1))
-```
-
-and rebind your refresh key, e.g. `"ok" '(vulpea-dblock-refresh :wk
-"Refresh dynamic block")`.
-
 ## Development
 
 ```sh
