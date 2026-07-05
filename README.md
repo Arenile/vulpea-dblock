@@ -1,5 +1,13 @@
 # vulpea-dblock
 
+> Note: This was entirely written by Claude Fable 5. I had an original protoype for
+> something like this I had done and thought improving the performance of
+> that could be an interesting thing to try with Fable. That means I
+> can't make any guarantees about the quality of or safety of the
+> project, though, so naturally use your own discretion. If you want to
+> take this idea and make a better version for yourself please do so. I
+> only ask that you share it so others can use it to! 
+
 Declarative dynamic blocks for [vulpea](https://github.com/d12frosted/vulpea)
 with **reactive, incremental refresh**.
 
