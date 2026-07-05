@@ -1,4 +1,4 @@
-;;; test-registry.el --- Tests for vulpea-dblock-registry -*- lexical-binding: t; -*-
+;;; test-registry.el --- Tests for vulpea-dblock-registry -*- lexical-binding: t; no-byte-compile: t; -*-
 
 ;;; Commentary:
 

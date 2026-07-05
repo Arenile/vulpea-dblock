@@ -1,4 +1,4 @@
-;;; test-integration.el --- End-to-end tests with a real vulpea db -*- lexical-binding: t; -*-
+;;; test-integration.el --- End-to-end tests with a real vulpea db -*- lexical-binding: t; no-byte-compile: t; -*-
 
 ;;; Commentary:
 

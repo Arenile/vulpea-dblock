@@ -1,4 +1,4 @@
-;;; test-helper.el --- Shared setup for vulpea-dblock tests -*- lexical-binding: t; -*-
+;;; test-helper.el --- Shared setup for vulpea-dblock tests -*- lexical-binding: t; no-byte-compile: t; -*-
 
 ;;; Commentary:
 

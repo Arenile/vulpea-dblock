@@ -1,4 +1,4 @@
-;;; test-render.el --- Tests for vulpea-dblock-render -*- lexical-binding: t; -*-
+;;; test-render.el --- Tests for vulpea-dblock-render -*- lexical-binding: t; no-byte-compile: t; -*-
 
 ;;; Commentary:
 

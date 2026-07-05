@@ -1,4 +1,4 @@
-;;; test-scheduler.el --- Tests for vulpea-dblock-scheduler -*- lexical-binding: t; -*-
+;;; test-scheduler.el --- Tests for vulpea-dblock-scheduler -*- lexical-binding: t; no-byte-compile: t; -*-
 
 ;;; Commentary:
 
