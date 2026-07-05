@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       11111111-1111-1111-1111-111111111111
+:END:
+#+title: Sample fixture
+
+Some prose before the blocks.
+
+#+BEGIN: vulpea :tags (paper) :sort mtime :reverse t :limit 5
+/none/
+#+END:
+
+* Reading list
+:PROPERTIES:
+:ID:       22222222-2222-2222-2222-222222222222
+:END:
+
+#+BEGIN: node-list :tag "reading_list" :exclude-done t
+No matching nodes found.
+#+END:

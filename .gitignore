@@ -1,0 +1,6 @@
+# Local reference material, never committed
+/ref/
+
+*.elc
+*-autoloads.el
+/.eask/
